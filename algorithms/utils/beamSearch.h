@@ -159,7 +159,7 @@ beam_search(Point p, Graph<indexType> &G, PointRange &Points,
 
     // if a k is given (i.e. k != 0) then trim off entries that have a
     // distance greater than cut * current-kth-smallest-distance.
-    // Only used during query and not during build.
+    // Only used during query and not during build. 
     if (QP.k > 0 && new_frontier_size > QP.k && Points[0].is_metric())
       new_frontier_size =
           (std::upper_bound(new_frontier.begin(),
