@@ -65,5 +65,7 @@
         "ios": "cpp",
         "locale": "cpp",
         "queue": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "D:/Codefield/ParlayANN-filter/parlaylib/parlaylib-7cdb4cae8f020525f5eb4ad82e2565d1e38cfbc3",
+    "C_Cpp.errorSquiggles": "enabled"
 }
