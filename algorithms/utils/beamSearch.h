@@ -144,7 +144,7 @@ beam_search(Point p, Graph<indexType> &G, PointRange &Points,
       if (dist >= cutoff) continue;
       candidates.push_back(std::pair{a, dist});
     }
- 
+  
     // sort the candidates by distance from p
     std::sort(candidates.begin(), candidates.end(), less);
 
