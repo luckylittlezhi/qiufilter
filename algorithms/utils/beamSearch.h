@@ -145,7 +145,7 @@ beam_search(Point p, Graph<indexType> &G, PointRange &Points,
       candidates.push_back(std::pair{a, dist});
     }
   
-    // sort the candidates by distance from p
+    // sort the candidates by distance from p 
     std::sort(candidates.begin(), candidates.end(), less);
 
     // union the frontier and candidates into new_frontier, both are sorted
